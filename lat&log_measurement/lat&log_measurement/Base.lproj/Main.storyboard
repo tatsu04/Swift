@@ -75,8 +75,12 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="LatitudeLabel" destination="0NV-xe-oOD" id="pBN-1R-v2e"/>
+                        <outlet property="LogitudeLabel" destination="zup-a5-yVX" id="Gj8-b9-yFe"/>
                         <outlet property="Time" destination="eIf-y8-jAq" id="eXo-Ua-ODi"/>
                         <outlet property="TimeLabel" destination="j9O-kp-Peu" id="h8Y-T3-MWa"/>
+                        <outlet property="ValueofLatitude" destination="RtY-Uw-TtQ" id="cPA-90-1B5"/>
+                        <outlet property="ValueofLongitude" destination="isQ-Hj-2Yu" id="q6m-MR-kAn"/>
                         <outlet property="latitudeLabel" destination="0NV-xe-oOD" id="aNd-QK-evh"/>
                         <outlet property="longitudeLabel" destination="zup-a5-yVX" id="9CP-Rh-oY2"/>
                         <outlet property="timeLabel" destination="j9O-kp-Peu" id="6Wg-W7-TtD"/>
